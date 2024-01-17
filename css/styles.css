@@ -631,10 +631,17 @@ img {
 
 .modal-icon {
     position: absolute;
-    left: 0;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.modal-icon::after {
+    content: "";
+    height: 18px;
+    background-color: #2E2F42;
+    position: absolute;
+    left: 50%;
 }
 
 .modal-text {
@@ -645,4 +652,45 @@ img {
     outline: transparent;
     padding: 8px 16px;
     resize: none;
+}
+
+.check-text {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+
+.check-text a {
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
+
+.check-text span {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.modal-send-btn {   
+cursor: pointer;
+border: none;
+margin: 0 auto;
+padding: 16px 32px;
+display: block;
+border-radius: 4px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+min-width: 169px;
+height: 56px;
+color: #FFF;
+text-align: center;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
