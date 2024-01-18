@@ -521,9 +521,8 @@ img {
     background-color: #31D0AA;
 }
 
-.footer-label {
+.footer-form {
     display: flex;
-    align-items: center;
     gap: 24px;
 }
 .footer-form-text {
@@ -652,7 +651,7 @@ img {
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
@@ -704,7 +703,12 @@ img {
     left: 50%;
 }
 
+.modal-field-checked {
+    margin-bottom: 24px;
+}
+
 .modal-text {
+    color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -727,8 +731,6 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
 }
 
 
