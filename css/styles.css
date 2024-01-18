@@ -703,8 +703,8 @@ img {
     left: 50%;
 }
 
-.modal-field-checked {
-    margin-bottom: 24px;
+.modal-field-textarea {
+    margin-bottom: 16px;
 }
 
 .modal-text {
@@ -726,6 +726,11 @@ img {
 .modal-text:focus {
     border-color: #4D5AE5;
 }
+
+.modal-field-checked {
+    margin-bottom: 24px;
+}
+
 .check-text {
     color: #8E8F99;
     font-size: 12px;
